@@ -2,16 +2,16 @@
 Dynamic DNS update script for dy.fi
 
 (Based on <a href="https://wiki.mikrotik.com/wiki/Dynamic_DNS_Update_Script_for_No-IP_DNS">Dynamic DNS Update Script for No-IP DNS</a>. Tested on **RouterOS v6.42.6**)
-  
-  
+<br>
+<br>
 **1. Create a new script named _dyfi-update_**
 
 The following permissions are required for this script to run:
 * write
 * test
 * read
-  
-  
+<br>
+<br>
 **2. Paste the code below as _Source_**
 ```
 # dy.fi automatic Dynamic DNS update
@@ -49,8 +49,8 @@ Edit the values for DYFIUser, DYFIPass DYFIHost & WANInter to match your configu
 ###############################################
 ```
 It is recommended to first **Run Script** and then login to dy.fi site to actually verify that the script works as intended before going further.
-  
-  
+<br>
+<br>
 **3. Add a new scheduler entry to run the script every 6 days**
 ```
 /system scheduler add comment="Update dy.fi DDNS" disabled=no interval="6d 00:00:00" \
