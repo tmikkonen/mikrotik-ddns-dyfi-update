@@ -39,9 +39,9 @@ Edit the values for DYFIUser, DYFIPass DYFIHost & WANInter to match your configu
 ```
 ##############Script Settings##################
 
-:local NOIPUser "testuser1"
-:local NOIPPass "testpassword"
-:local NOIPPass "testhost"
+:local DYFIUser "testuser1"
+:local DYFIPass "testpassword"
+:local DYFIHost "testhost"
 :local WANInter "ether1"
 
 ###############################################
