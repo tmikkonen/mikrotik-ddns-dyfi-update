@@ -1,7 +1,7 @@
 # mikrotik-ddns-dyfi-update
 Dynamic DNS update script for dy.fi
 
-(Based on <a href="https://wiki.mikrotik.com/wiki/Dynamic_DNS_Update_Script_for_No-IP_DNS">Dynamic DNS Update Script for No-IP DNS</a>. Tested on **RouterOS v6.42.6**)
+Based on <a href="https://wiki.mikrotik.com/wiki/Dynamic_DNS_Update_Script_for_No-IP_DNS">Dynamic DNS Update Script for No-IP DNS</a>. Tested on **RouterOS v6.42.6**.
 <br><br>  
 
 **1. Create a new script named _dyfi-update_**
