@@ -35,8 +35,7 @@ The following permissions are required for this script to run:
    } 
 }
 ```
-Edit the values for DYFIUser, DYFIPass DYFIHost & WANInter to match your configuration.
-E.g.
+Edit the values for DYFIUser, DYFIPass DYFIHost & WANInter to match your configuration e.g.
 ```
 ##############Script Settings##################
 
