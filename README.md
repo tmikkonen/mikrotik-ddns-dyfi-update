@@ -50,6 +50,6 @@ E.g.
 
 **3. Add a new scheduler entry to run the script every 6 days**
 ```
-/system scheduler add comment="Update dy.fi DDNS" disabled=no interval=6d \
+/system scheduler add comment="Update dy.fi DDNS" disabled=no interval="6d 00:00:00" \
 name="dy.fi ddns update" on-event=dyfi-update policy=read,write,test
 ```
