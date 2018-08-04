@@ -46,6 +46,7 @@ Edit the values for DYFIUser, DYFIPass DYFIHost & WANInter to match your configu
 
 ###############################################
 ```
+It is recommended to first **Run Script** and then login to dy.fi site to actually verify that the script works as intended before going further.
 
 **3. Add a new scheduler entry to run the script every 6 days**
 ```
