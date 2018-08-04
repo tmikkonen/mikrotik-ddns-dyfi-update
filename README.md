@@ -1,16 +1,16 @@
 # mikrotik-ddns-dyfi-update
 Dynamic DNS update script for dy.fi
 
-Based on <a href="https://wiki.mikrotik.com/wiki/Dynamic_DNS_Update_Script_for_No-IP_DNS">Dynamic DNS Update Script for No-IP DNS</a>.
+(Based on <a href="https://wiki.mikrotik.com/wiki/Dynamic_DNS_Update_Script_for_No-IP_DNS">Dynamic DNS Update Script for No-IP DNS</a>.)
 
-1. Create a new script named dyfi-update
+**1. Create a new script named _dyfi-update_**
 
 The following permissions are required for this script to run:
 * write
 * test
 * read
 
-2. Paste the code below as Source
+**2. Paste the code below as _Source_**
 ```
 # dy.fi automatic Dynamic DNS update
 
@@ -48,7 +48,7 @@ E.g.
 ###############################################
 ```
 
-3. Add a new scheduler entry to run the script every 6 days.
+**3. Add a new scheduler entry to run the script every 6 days**
 ```
 /system scheduler add comment="Update dy.fi DDNS" disabled=no interval=6d \
 name="dy.fi ddns update" on-event=dyfi-update policy=read,write,test
