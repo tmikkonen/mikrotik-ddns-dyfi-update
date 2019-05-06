@@ -53,6 +53,6 @@ It is recommended to first **Run Script** and then login to dy.fi site to actual
   
 **3. Add a new scheduler entry to run the script every 5 minutes**
 ```
-/system scheduler add comment="Update dy.fi DDNS" disabled=no interval=5m \
+/system scheduler add comment="Update dy.fi DDNS" disabled=no interval="00:05:00" \
 name="dy.fi ddns update" on-event=dyfi-update policy=read,write,test
 ```
