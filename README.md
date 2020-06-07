@@ -51,8 +51,8 @@ Edit the values for DYFIUser, DYFIPass DYFIHost & WANInter to match your configu
 It is recommended to first **Run Script** and then login to dy.fi site to actually verify that the script works as intended before going further.
 <br><br>
   
-**3. Add a new scheduler entry to run the script every 5 minutes**
+**3. Add a new scheduler entry to run the script every 5 days**
 ```
-/system scheduler add comment="Update dy.fi DDNS" disabled=no interval="00:05:00" \
+/system scheduler add comment="Update dy.fi DDNS" disabled=no interval="5d 00:00:00" \
 name="dy.fi ddns update" on-event=dyfi-update policy=read,write,test
 ```
